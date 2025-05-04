@@ -2,7 +2,7 @@ from typing import List, Dict, Any, Optional
 import json
 from datetime import datetime
 from sqlalchemy.orm import Session
-from semantic_kernel.plugin_definition import kernel_function, KernelPlugin
+from semantic_kernel.functions import kernel_function, KernelPlugin
 
 from doce.database.models import Invoice, Contract, AuditLog, WorkflowRule, User
 

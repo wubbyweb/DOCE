@@ -2,7 +2,7 @@ import os
 from typing import List, Optional
 import io
 from google.cloud import vision
-from semantic_kernel.plugin_definition import kernel_function, KernelPlugin
+from semantic_kernel.functions import kernel_function, KernelPlugin
 
 class GoogleVisionPlugin(KernelPlugin):
     """

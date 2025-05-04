@@ -1,7 +1,7 @@
 from typing import Dict, Any, List
 import json
 import re
-from semantic_kernel.plugin_definition import kernel_function, KernelPlugin
+from semantic_kernel.functions import kernel_function, KernelPlugin
 
 class WorkflowRulesPlugin(KernelPlugin):
     """

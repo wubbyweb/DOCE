@@ -3,7 +3,7 @@ import shutil
 from typing import List, Optional, Dict, Any
 import json
 from datetime import datetime
-from semantic_kernel.plugin_definition import kernel_function, KernelPlugin
+from semantic_kernel.functions import kernel_function, KernelPlugin
 
 class FileSystemPlugin(KernelPlugin):
     """

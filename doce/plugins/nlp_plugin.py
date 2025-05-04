@@ -1,7 +1,7 @@
 from typing import Dict, Any, Optional
 import json
 from semantic_kernel import Kernel
-from semantic_kernel.plugin_definition import kernel_function, KernelPlugin
+from semantic_kernel.functions import kernel_function, KernelPlugin
 from semantic_kernel.functions import KernelFunction
 
 class NLPPlugin(KernelPlugin):

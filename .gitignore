@@ -1,2 +1,5 @@
 /.env
 .venv
+doce/frontend/node_modules
+doce/__pycache__
+**/__pycache__/
